@@ -11,6 +11,7 @@ $(document).ready(function() {
         lettersLong.push(str);
       }
     });
+    // Needed ti add (' ') to create a way to remove commas and add spaces.
     alert(lettersLong);
     lettersLong.reverse(' ');
     var completedSentenceFunction = lettersLong.join(' ');
